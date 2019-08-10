@@ -1,0 +1,294 @@
+#top-nav {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+}
+
+.button {
+    display:flex;
+    justify-content:center;
+    margin: 0px 30%;
+    padding:6px 0px;
+    color:white;
+    border-radius:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:red;
+    text-decoration:none;
+}
+#image {
+    width: 1px;
+}
+
+#find-keyword {
+    width: 800px;
+    height: 30px;
+    border:1px solid white;
+    background-color:rgb(31, 82, 111);
+    margin:0px;
+    
+}
+.top-button {
+    background-color:rgb(31, 82, 111);;
+    border-radius: 0%;
+    width: 30px;
+    height: 33px;
+    border:1px solid white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 70px 0px 0px;
+}
+#button-1{
+background-color:rgb(240, 146, 51);
+
+}
+
+#button-2{
+background-color:rgb(203, 56, 55);
+}
+
+#button-3{
+    background-color:rgb(49, 68, 88)
+}
+
+nav {
+    background-color: #c12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height:30px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    margin:0px 0px 0px 5px;
+    font-family: 'arial', Courier, monospace;
+
+}
+
+.acronym {
+    position:relative;
+    bottom:18px;
+    margin: 0px 0px 0px 30px;
+    font-family:'Arial', Helvetica, sans-serif;
+    
+}
+
+.top-links {
+    display:inline-block;
+    float: right;
+    padding:0;
+    margin: 0 20px 0 0;    
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+.header {
+    background-image: url("C:/Users/Aitssa/Downloads/lab-html-module-exercise-master/lab-html-module-exercise-master/starter-code/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+    background-size: cover;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px 0px 40px 0px;
+    background-color:rgb(32, 101, 136);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+#top-header {
+display:flex;
+flex-direction:row;
+justify-content: space-around;
+align-items:center;
+list-style-type:none;
+}
+
+#top-header form {
+    padding: 0px 60px;
+    
+}
+
+#top-header img {
+    padding:0px 10px;
+    width:50px;
+}
+
+#top-header a {
+    color:white;
+    align-items:flex-start;
+    padding:0px 20px;
+}
+
+button {
+    font:white; 
+    background-color:rgb(240, 146, 51);
+    border-radius: 12px;
+    width: 150px;
+}
+
+.message {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0 auto;
+    margin: 0px 590px 0px 350px;
+    padding:40px 140px 40px 0px;
+}
+
+.header li {
+    list-style-type:none;
+    flex-direction:row;
+}
+
+
+.header a {
+    list-style-type: none; 
+    text-decoration: none;
+
+}
+
+#button {
+    background-color: rgb(240,146,51);
+    color:white;
+    height: 25px;
+    width:120px;
+}
+#search {
+ display:flex;
+ flex-direction:row;
+ justify-content:space-between;
+ align-items: center;
+ height:20px;
+ margin:10px 0px;
+}
+
+#build {
+    font-family: Arial-light, Helvetica, sans-serif;
+    display:flex;
+    align-items:center;
+    background-color:rgb(39, 53, 71);
+    background-size:cover;
+    color:white;
+    padding: 60px 0px;
+}
+
+#build a {
+    text-decoration:none;
+    color:white;
+}
+
+#build h1 {
+    width: 0px 20px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sample {
+    display:flex;
+    flex-direction:column;
+    align-items:center; justify-content:space-between;
+    padding:80px 60px 80px 0px;
+}
+#sample li  {
+    margin:30px 0px 0px 0px
+
+}
+
+
+#build img {
+    margin: 0 auto;
+    width: 700px;
+}
+
+#collaboration {
+    font-family: Arial-light, Helvetica, sans-serif;
+    color:white;
+    background-image: url("file:///C:/Users/Aitssa/Downloads/lab-html-module-exercise-master/lab-html-module-exercise-master/starter-code/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+    background-size:cover;
+    position:relative;
+}
+
+#what-is-npm {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: left;
+    padding:100px 850px 300px 300px;
+}
+
+#building-blocks {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    width:200;
+}
+
+#npm {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#icons {
+    display:flex;
+    flex-direction: row;
+    align-items:stretch; justify-content:center;
+}
+
+#icons a {
+    text-decoration:none;
+    color:red;
+}
+.container {
+    padding: 5px 33% 0px 33%;
+    list-style-type:none;
+    text-decoration: none;
+    
+
+}
+#icons h5 {
+    text-emphasis: size;
+    font-size:15px;
+    text-align: center;
+
+}
+
+#icons p {
+text-align:center;
+color:grey;
+
+}
+
+#icon-1 {
+}
+
+#icon-2 {
+}
+
+#icon-2 img {
+    padding: 0px 0px 0px 25px
+}
+
+/*#npm-logo {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+
+#npm-logo img {
+    width: 70px;
+    position: relative;
+    left:2px;
+    top:5px;
+}
+*/
